@@ -6,7 +6,7 @@
           
           To request the data make a GET request. Response will be in JSON format. 
           Use the library requests in Python to send the GET request.
-          ![image](https://github.com/user-attachments/assets/83d2e702-33fa-47ec-8504-5352446140da)
+![image](https://github.com/user-attachments/assets/83d2e702-33fa-47ec-8504-5352446140da)
           
           
           
@@ -15,7 +15,7 @@
           Recieving data will be in JSON format. The key for the quote in the JSON is "quote"
           Once the HTTP request is recieved, you will recieve the data as part of the HTTP response. 
           
-          ![image](https://github.com/user-attachments/assets/39f92d82-972f-4863-aa9b-1494e52afaaa)
+![image](https://github.com/user-attachments/assets/39f92d82-972f-4863-aa9b-1494e52afaaa)
           
           
           UML sequence diagram showing how requesting and receiving data works. Make it detailed enough that your teammate (and your grader) will understand.
