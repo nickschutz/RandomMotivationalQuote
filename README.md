@@ -21,17 +21,17 @@ Once the HTTP request is recieved, you will recieve the data as part of the HTTP
 UML sequence diagram showing how requesting and receiving data works. Make it detailed enough that your teammate (and your grader) will understand.
 
 
-+---------------------+      +-------------------+        +------------------+
-|      Client         |      |    Microservice    |        |   Quote File     |
-+---------------------+      +-------------------+        +------------------+
-          |                          |                          |
-          |----(1) GET /get-quote -->|                          |
-          |                          |                          |
-          |                          |----(2) Read from file -->|
-          |                          |                          |
-          |                          |<---(3) Return Quote -----|
-          |<---(4) Return JSON ------|                          |
-          |                          |                          |
-          |----(5) Print Quote ------|                          |
-          |                          |                          |
+          +---------------------+      +-------------------+        +------------------+
+          |      Client         |      |    Microservice    |        |   Quote File     |
+          +---------------------+      +-------------------+        +------------------+
+                    |                          |                          |
+                    |----(1) GET /get-quote -->|                          |
+                    |                          |                          |
+                    |                          |----(2) Read from file -->|
+                    |                          |                          |
+                    |                          |<---(3) Return Quote -----|
+                    |<---(4) Return JSON ------|                          |
+                    |                          |                          |
+                    |----(5) Print Quote ------|                          |
+                    |                          |                          |
 
